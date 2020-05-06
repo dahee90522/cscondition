@@ -105,19 +105,19 @@ namespace cscondition
                     Console.WriteLine("왼쪽으로 이동");
                     break;
                 default:
-
-                    switch (info.KeyChar)
-                    {
-                        case (char)38:
-                            Console.WriteLine("위로 이동");
-                            break;
-                        case '가':
-                            Console.WriteLine("위로 이동");
-                            break;
-                        default:
-                            Console.WriteLine("다른 키를 눌렀습니다.");
-                            break;
-                    }
+                switch (info.KeyChar)
+                {/*
+                    case (char)38:
+                        Console.WriteLine("위로 이동");
+                        break;*/
+                    case '가':
+                        Console.WriteLine("가 입력");
+                        break;
+                    default:
+                        Console.WriteLine("다른 키를 눌렀습니다.");
+                        break;
+                }
+                break;
             }
         }
     }
